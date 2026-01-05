@@ -1,20 +1,46 @@
 # aws-scalable-web-app-alb-asg
 
-## Overview
-This project demonstrates the design and implementation of a secure and scalable cloud architecture using AWS services.
+# AWS Scalable Web Application using ALB & Auto Scaling Group
 
-## Architecture
-- Application Load Balancer
-- Auto Scaling Group
-- EC2
-- VPC, Subnets, Security Groups
-- IAM Roles & Policies
+## 📌 Project Overview
+This project demonstrates the design of a highly available and scalable web application on AWS using Application Load Balancer (ALB) and Auto Scaling Group (ASG) to handle dynamic traffic efficiently.
 
-## Features
-- High Availability
-- Auto Scaling
-- Secure Access
-- Cost Optimization
+---
 
-## Documentation
-📄 Detailed explanation available in PPT format inside the PPT folder.
+## 🏗 Architecture Components
+- Amazon EC2
+- Application Load Balancer (ALB)
+- Auto Scaling Group (ASG)
+- Target Groups
+- VPC, Subnets (Multi-AZ)
+- Security Groups
+- IAM Roles
+- Amazon CloudWatch
+
+---
+
+## ⚙️ Key Features
+- High availability across multiple Availability Zones
+- Automatic scaling based on traffic demand
+- Load-balanced traffic distribution
+- Fault tolerance with health checks
+- Cost optimization through dynamic scaling
+
+---
+
+## 🔐 Security
+- Security Groups for instance-level access control
+- IAM Roles for secure AWS service access
+- No hardcoded credentials
+- Optional integration with AWS WAF
+
+---
+
+## 📊 Monitoring & Scaling
+- CloudWatch metrics for CPU utilization and request count
+- Auto Scaling policies for scale-in and scale-out
+- ALB health checks for instance monitoring
+
+---
+
+## 📁 Repository Structure
